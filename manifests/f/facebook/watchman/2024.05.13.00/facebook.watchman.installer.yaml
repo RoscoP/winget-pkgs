@@ -1,0 +1,19 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: facebook.watchman
+PackageVersion: 2024.05.06.00
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: watchman-v2024.05.06.00-windows\bin\watchman.exe
+  PortableCommandAlias: watchman
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+Installers:
+- InstallerUrl: https://github.com/facebook/watchman/releases/download/v2024.05.06.00/watchman-v2024.05.06.00-windows.zip
+  Architecture: x64
+  InstallerSha256: 6A8868F75777EEA60847E1DE003FEE6B3892D78EA5FF44F79407D2958CA78422
+ManifestType: installer
+ManifestVersion: 1.6.0

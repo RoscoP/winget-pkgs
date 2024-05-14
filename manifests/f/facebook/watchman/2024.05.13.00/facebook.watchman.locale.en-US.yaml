@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.1.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: facebook.watchman
+PackageVersion: 2024.05.06.00
+PackageLocale: en-US
+Publisher: Facebook
+PackageName: watchman
+License: MIT License
+ShortDescription: Watchman exists to watch files and record when they actually change. It can also trigger actions (such as rebuilding assets) when matching files change.
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
